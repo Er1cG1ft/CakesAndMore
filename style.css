@@ -1,0 +1,128 @@
+.header {
+  width:100%;
+  height:100vh;
+  position:relative;
+}
+
+.cake-header {
+  position:relative;
+  float:left;
+  margin-left:50px;
+  margin-top:12%;
+  padding-right:50px;
+}
+
+.title {
+  position:relative;
+  height:100%;
+  font-family: 'Montserrat', sans-serif;
+  color:black;
+}
+
+.title-text {
+  margin-top:60%;
+  position:relative;
+  opacity:0;
+}
+
+.about {
+  background-color:#FF9639;
+  color:black;
+  font-family: 'Droid Sans', sans-serif;
+  text-align:center;
+  padding-top:110px;
+  padding-bottom:70px;
+}
+
+.info {
+  padding-bottom:50px;
+}
+
+.info h2 {
+  font-size:40px;
+}
+
+.info p {
+  font-size:17px;
+  padding-top:10px;
+}
+
+.about-icon {
+  width:80px;
+}
+
+.content {
+  background-color:#FF9639;
+}
+
+.nav-button {
+  text-align:center;
+  font-family: 'Droid Sans', sans-serif;
+  margin-top:100px;
+  color:black;
+}
+
+.nav-button h2 {
+  font-size:50px;
+  padding:75px;
+}
+
+.port:hover {
+  -moz-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
+  box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
+body {
+  overflow-x:hidden;
+  background-color:#FF9639;
+}
+
+.footer {
+  text-align:center;
+  margin-top:30px;
+  font-size:15px;
+}
+
+.footer h3 {
+  font-family: Georgia, serif;
+  text-align:center;
+  margin-top:50px;
+}
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+  .title h2 {
+    font-size:20px;
+  }
+  .title p {
+  font-size:10px;
+}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .title h2 {
+    font-size:30px;
+  }
+  .title p {
+    font-size:15px;
+  }
+}
+/* tablets/desktops and up ----------- */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .title h2 {
+    font-size:40px;
+  }
+  .title p {
+    font-size:20px;
+  }
+}
+/* large desktops and up ----------- */
+@media screen and (min-width: 1200px) {
+  .title h2 {
+    font-size:50px;
+  }
+  .title p {
+    font-size:25px;
+  }
+}
