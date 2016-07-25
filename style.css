@@ -27,7 +27,7 @@
 
 .about {
   background-color:#FF9639;
-  color:black;
+  color:white;
   font-family: 'Droid Sans', sans-serif;
   text-align:center;
   padding-top:110px;
@@ -51,31 +51,123 @@
   width:80px;
 }
 
+.clipboard {
+  width:75px;
+}
+
+.truck {
+  margin-top:12px;
+  width:130px;
+}
+
 .content {
   background-color:#FF9639;
 }
 
-.nav-button {
+.highlights {
   text-align:center;
-  font-family: 'Droid Sans', sans-serif;
-  margin-top:100px;
-  color:black;
+  margin-top:30px;
 }
 
-.nav-button h2 {
+.highlights h2 {
   font-size:50px;
-  padding:75px;
+  font-family: 'Droid Sans', sans-serif;
 }
 
-.port:hover {
-  -moz-box-shadow: 0px 0px 10px rgba(0,0,0,1);
-  -webkit-box-shadow: 0px 0px 10px rgba(0,0,0,1);
-  box-shadow: 0px 0px 10px rgba(0,0,0,1);
+.highlights h3 {
+  display:inline;
+  position:relative;
+  left:-230px;
+  top:60px;
+  letter-spacing:-3px;
+}
+
+#line2 {
+  left:230px;
+  top:-50px;
+}
+
+.cakes {
+  margin-top:20px;
+}
+
+.cake-creation {
+  padding-left:50px;
+}
+
+.cake-creation2 {
+  padding-right:50px;
+}
+
+.button-holder {
+  margin-top:10px;
+  position:relative;
+  left:50%;
+  margin-left:-150px;
+  width:300px;
+  text-align:center;
+}
+
+.portfolio-button {
+  width:300px;
+  height:50px;
+}
+
+.portfolio {
+  width:300px;
+  height:100%;
+  border:5px solid green;
+  border-radius:10px;
+  color:green;
+  transition:.2s;
+}
+
+.portfolio p {
+  font-size:25px;
+  position:relative;
+  left:3px;
+  top:5px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.portfolio:hover {
+  color:white;
+  background-color:green;
+}
+
+.order-form {
+  text-align:center;
+  margin-top:30px;
+}
+
+.order-form h2 {
+  font-size:50px;
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.order-form h3 {
+  display:inline;
+  position:relative;
+  left:-140px;
+  top:60px;
+  letter-spacing:-3px;
+}
+
+#order-line {
+  left:140px;
+  top:-50px;
+}
+
+.order-desc {
+  margin-top:-20px;
+}
+
+.cards {
+  width:200px;
 }
 
 body {
   overflow-x:hidden;
-  background-color:#FF9639;
 }
 
 .footer {
